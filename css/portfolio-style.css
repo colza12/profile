@@ -6,7 +6,7 @@ body {
 /* グリッドレイアウト */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 250px); /* カード幅固定 */
+  grid-template-columns: repeat(auto-fill, 250px); /* カード幅固定 */
   gap: 20px;
   padding: 20px;
   justify-content: center; /* 中央揃え（任意） */
@@ -69,4 +69,5 @@ body {
 .float-right a {
   text-decoration: none;
 }
+
 
